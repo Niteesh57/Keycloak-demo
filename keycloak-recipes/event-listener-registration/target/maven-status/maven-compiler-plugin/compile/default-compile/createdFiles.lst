@@ -1,0 +1,7 @@
+org\keycloak\quickstart\event\listener\AdminUserCreatedEventListenerProviderFactory.class
+org\keycloak\quickstart\event\listener\RegistrationEventListenerProvider.class
+org\keycloak\quickstart\event\listener\AdminRoleEventListenerProviderFactory.class
+org\keycloak\quickstart\event\listener\AdminUserCreatedEventListenerProvider.class
+org\keycloak\quickstart\event\listener\AdminRoleEventListenerProvider.class
+org\keycloak\quickstart\event\listener\RegistrationEventListenerProviderFactory.class
+org\keycloak\quickstart\event\listener\BaseEmailEventListenerProvider.class
