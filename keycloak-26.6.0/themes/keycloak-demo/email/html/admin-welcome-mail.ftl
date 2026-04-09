@@ -30,7 +30,7 @@
             </div>
 
             <p>To get started, please log in and set up your profile using the link below:</p>
-            <a href="${url.loginUrl}" class="button">Log In & Get Started</a>
+            <a href="${(url.loginUrl)!''}" class="button">Log In & Get Started</a>
             
             <p style="margin-top: 30px; font-size: 14px; color: #6b7280;">If you have any questions, please contact your administrator.</p>
         </div>

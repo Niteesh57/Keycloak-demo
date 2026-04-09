@@ -50,6 +50,10 @@ public abstract class BaseEmailEventListenerProvider implements EventListenerPro
             System.out.println("Email sent successfully using template: " + template);
         } catch (EmailException e) {
             System.err.println("Failed to send email to " + user.getEmail() + ": " + e.getMessage());
+            if (e.getCause() != null) {
+                System.err.println("Cause: " + e.getCause().getMessage());
+            }
+            e.printStackTrace();
         }
     }
 

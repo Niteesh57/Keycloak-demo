@@ -24,7 +24,7 @@
             <p>Hello ${user.firstName!user.username},</p>
             <p>We're thrilled to have you join us at <strong>${realmName}</strong>. Your account has been successfully created and you're ready to start exploring.</p>
             <p>Whether you're here to collaborate, build, or learn, we're here to support you every step of the way.</p>
-            <a href="${url.loginUrl}" class="button">Log In to Your Account</a>
+            <a href="${(url.loginUrl)!''}" class="button">Log In to Your Account</a>
             <p style="margin-top: 30px; font-size: 14px; color: #6b7280;">If you didn't create this account, please ignore this email or contact support.</p>
         </div>
         <div class="footer">
